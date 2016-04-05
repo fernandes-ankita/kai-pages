@@ -1,0 +1,21 @@
+.TopNav{
+	box-shadow: none;
+    background-color: #F7F6F0;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    
+
+    button.TopNavLoginBtn{
+		padding: 0px 20px;
+		line-height: 30px;
+	}
+}
+
+.TopNav-links {
+	li a {
+		color: #000;
+		font-size: 1.1em;
+		text-transform: uppercase;
+	}
+}
