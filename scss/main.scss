@@ -19,10 +19,6 @@
 @import "../bower_components/Materialize/sass/components/icons-material-design";
 @import "globals/fonts.scss";
 
-//plugins
-// inject:plugins
-// endinject
-
 //components
 @import "../bower_components/Materialize/sass/components/global";
 @import "../bower_components/Materialize/sass/components/icons-material-design";
@@ -41,7 +37,7 @@
 @import "../bower_components/Materialize/sass/components/collapsible";
 @import "../bower_components/Materialize/sass/components/chips";
 @import "../bower_components/Materialize/sass/components/materialbox";
-@import "../bower_components/Materialize/sass/components/form";
+@import "../bower_components/Materialize/sass/components/forms/forms";
 @import "../bower_components/Materialize/sass/components/table_of_contents";
 @import "../bower_components/Materialize/sass/components/sideNav";
 @import "../bower_components/Materialize/sass/components/preloader";
@@ -50,11 +46,8 @@
 @import "../bower_components/Materialize/sass/components/date_picker/default.scss";
 @import "../bower_components/Materialize/sass/components/date_picker/default.date.scss";
 @import "../bower_components/Materialize/sass/components/date_picker/default.time.scss";
-// inject:components
-@import "components/_footer";
-@import "components/_header";
-// endinject
 
-//trumps
-// inject:trumps
-// endinject
+// components
+
+
+//utilities
