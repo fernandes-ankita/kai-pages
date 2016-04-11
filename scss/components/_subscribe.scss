@@ -1,25 +1,51 @@
 
 .SubscribeWrapper{
-	padding-left: 7%;
-    padding-right: 7%;
-    padding-top:7%;
+	padding-left: 10%;
+    padding-right: 10%;
+    padding-top:3%;
     padding-bottom:3%;
+    background-color: #F7F6F0;
 
     input[type="text"] {
 	    width: 200px;
-	    height: 23px;
+	    height: 30px;
 	    padding-right: 25%;
 	    border: 1px solid #ccc;
+	    text-indent: 10px;
+
+	    &:focus{
+	    	border-bottom:0px solid #ccc;
+	    	box-shadow:none;
+	    }
 	}
 
 	input[type="submit"] {
 	    margin-left: -50px;
-	    height: 25px;
+	    height: 32px;
 	    background: #3EECEA;
 	    color: white;
 	    border: 0;
 	    -webkit-appearance: none;
 	    padding: 2px 15px;
+
+	    &:focus{
+	    	border:0;
+	    }
+	}
+
+	img{
+		width:200px;
+		float: right;
+	}
+
+	p{
+		font-size: 1.2em;
+    	margin-bottom: 35px;
+	
+		&:first-child{
+			font-size: 1.5em;
+			margin-bottom: 0px;
+		}
 	}
 }
 
