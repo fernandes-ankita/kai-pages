@@ -1,9 +1,14 @@
 .BannerWrapper{
 	background-color: #F7F6F0;
-	padding-left: 10%;
-    padding-right: 10%;
+	padding-left: 5%;
+    padding-right: 5%;
     padding-top:5%;
     padding-bottom:5%;
+
+    @media #{$medium-and-up} {
+    	padding-left: 10%;
+    	padding-right: 10%;
+    }
 
     
 	p{
@@ -18,5 +23,25 @@
 	    }
 
     }
+}
+
+.blue-border-btn{
+	background:none;
+	border:3px solid #3EECEA;
+	color:#3EECEA;
+	font-size:1.2em;
+	float:right;
+
+	@media #{$medium-and-up} {
+		float: none;
+	}
+
+	&:hover{
+		background:none;
+	}
+
+	&:focus{
+		background:none;
+	}
 }
 

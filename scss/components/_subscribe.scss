@@ -1,10 +1,15 @@
 
 .SubscribeWrapper{
-	padding-left: 10%;
-    padding-right: 10%;
+	padding-left: 5%;
+    padding-right: 5%;
     padding-top:5%;
     padding-bottom:5%;
     background-color: #F7F6F0;
+
+    @media #{$medium-and-up} {
+    	padding-left: 10%;
+    	padding-right: 10%;
+    }
 
     input[type="text"] {
 	    width: 200px;
@@ -24,18 +29,24 @@
 	    height: 32px;
 	    background: #3EECEA;
 	    color: white;
-	    border: 0;
+	    border: 1px solid #3EECEA;
 	    -webkit-appearance: none;
 	    padding: 2px 15px;
+	    margin-left: 0px;
 
 	    &:focus{
-	    	border:0;
+	    	 border: 1px solid #3EECEA;
+	    	 outline: none;
 	    }
 	}
 
 	img{
-		width:200px;
-		float: right;
+		float: none;
+
+		@media #{$medium-and-up} {
+			width:200px;
+			float: right;	
+		}
 	}
 
 	p{

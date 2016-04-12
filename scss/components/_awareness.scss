@@ -1,12 +1,22 @@
 .AwareWrapper{
-	padding-left: 10%;
-    padding-right: 10%;
+	padding-left: 5%;
+    padding-right: 5%;
     padding-top:2%;
     padding-bottom:3%;
 
+    @media #{$medium-and-up} {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
     img{
-    	width:200px;
-    	float: right;
+    	width:100px;
+    	float: none;
+
+        @media #{$medium-and-up} {
+            width: 200px;
+            float: right;
+        }
     }
 
     h5{

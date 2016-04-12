@@ -4,11 +4,18 @@
     padding-left: 15px;
     padding-right: 15px;
 
-    
-
     button.TopNavLoginBtn{
 		padding: 0px 20px;
 		line-height: 30px;
+
+		&:focus{
+			background-color:#3EECEA;
+		}
+	}
+
+	.brand-logo img{
+		width: 100px;
+		vertical-align: middle;
 	}
 }
 
@@ -17,5 +24,9 @@
 		color: #000;
 		font-size: 1.1em;
 		text-transform: uppercase;
+
+		&:hover{
+			background:none;
+		}
 	}
 }
