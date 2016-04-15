@@ -12,15 +12,19 @@
     img{
     	width:100px;
     	float: none;
+        display: block;
+        margin: 0px auto;
 
         @media #{$medium-and-up} {
             width: 200px;
             float: right;
+            margin: 0;
         }
     }
 
     h5{
     	margin-bottom: 5%;
+        font-size: 1.3em;
     }
 
     p{

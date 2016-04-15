@@ -11,15 +11,19 @@
     }
 
     img{
-    	width:100px;
-
-         @media #{$medium-and-up} {
+        width:100px;
+        margin: 0px auto;
+        display: block;
+        
+        @media #{$medium-and-up} {
            width:200px; 
+           margin: 0;
         }
     }
 
     h5{
     	margin-bottom: 5%;
+        font-size: 1.2em;
     }
 
     p{
