@@ -11,10 +11,13 @@ html{
     button.TopNavLoginBtn{
 		padding: 0px 20px;
 		line-height: 30px;
+		box-shadow:none;
 
 		&:focus{
 			background-color:#3EECEA;
+			box-shadow:none;
 		}
+
 	}
 
 	.brand-logo img{

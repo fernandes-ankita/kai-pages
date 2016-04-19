@@ -15,7 +15,11 @@
 
 	ul {
 		li a{
-			color: #000;
+			color: #B0B0B0;
+
+			&:hover{
+				background:none;
+			}
 		}
 	}
 }

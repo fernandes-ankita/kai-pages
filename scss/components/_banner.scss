@@ -1,28 +1,55 @@
 .BannerWrapper{
 	background-color: #F7F6F0;
-	padding-left: 5%;
-    padding-right: 5%;
-    padding-top:5%;
-    padding-bottom:5%;
-
-    @media #{$medium-and-up} {
-    	padding-left: 10%;
-    	padding-right: 10%;
-    }
+	position:relative;
 
     
 	p{
 	
 		font-size: 1.1em;
 		line-height: 30px;
-		margin-bottom: 15%;
+		margin-bottom: 10%;
+		margin:0;
 
 	    &:first-child{
 	    	font-size: 1.5em;
-	    	margin-bottom: 0px;
+	    	margin-bottom: 2%;
+
+	    	@media #{$medium-and-up} {
+	    		margin-bottom: 5%;
+	    	}
+
+	    	@media #{$large-and-up} {
+				margin-bottom: 10%;
+	    	}
+	    }
+    }
+
+    .inner-banner-wrap{
+		width:100%;
+	    position: absolute;
+	    top: 14%;
+	    left: 0;
+	    padding-left: 15px;
+	    padding-right: 15px;
+
+	    @media #{$medium-and-up} {
+	    	width: 50%;
+	    	position: absolute;
+	    	left: 12%;
 	    }
 
-    }
+	    @media #{$large-and-up} {
+	    	width: 30%;
+	    }
+	}
+
+	img{
+		height: 335px;
+
+		@media #{$medium-and-up} {
+			height: auto;
+		}
+	}
 }
 
 .blue-border-btn{
@@ -31,13 +58,16 @@
 	color:#3EECEA;
 	font-size:1.2em;
 	float:right;
+	box-shadow:none;
 
 	@media #{$medium-and-up} {
 		float: none;
+		margin-top: 35px;
 	}
 
 	&:hover{
 		background:none;
+		box-shadow:none;
 	}
 
 	&:focus{
